@@ -1,2 +1,7 @@
 # ComingoWebCrawling
 專題爬蟲程式集
+1. crawl_ifoodie.py是由Selinium搭配Beatutifulsoup爬取ifoodie每周前20的當地美食推薦(週數可自行決定)，但只限本島。
+2. crawl_TaiwanFestival.py是爬取台灣觀光局網站當年1~12月份的所有活動
+3. Taiwn_all_simple_view 的資料夾下放兩支程式分別為crawl_cities_href.py和crawl_Taiwan_View_By_Region.py
+crawl_cities_href.py 會爬取台灣每區縣市的網址，並存入資料庫中
+crawl_Taiwan_View_By_Region.py 根據要爬取的區域，到資料庫取出縣市連結，在進行爬取。
