@@ -1,4 +1,4 @@
-# ComingoWebCrawling
+# ConmigoWebCrawling
 專題爬蟲程式集
 1. crawl_ifoodie.py是由Selinium搭配BeatutifulSoup爬取ifoodie每周前20的當地美食推薦(週數可自行決定)，但只限本島。
 2. crawl_TaiwanFestival.py是使用BeautifulSoup爬取台灣觀光局網站當年1~12月份的所有活動
